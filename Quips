@@ -1,0 +1,4 @@
+quip = "Honey is Bee vomit"
+print(quip)
+print(quip.upper())
+print(quip.lower())

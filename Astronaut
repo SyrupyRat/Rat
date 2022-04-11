@@ -1,0 +1,7 @@
+character_species = 'fox'
+celestial_body = 'Mars'
+print('there once was a ' + character_species + ',')
+print('he was a famous astronaut')
+print('he had always wanted to go to ' + celestial_body)
+print('so he bought a spaceship')
+print('and to ' + celestial_body +  ' the '  + character_species  +  ' astronaut went')

@@ -1,0 +1,31 @@
+character_species = 'platypus'
+celestial_body = 'Neptune'
+ast_amount = 47
+
+print('there once was a ' + character_species + ',')
+print('he was a famous astronaut')
+print('he had always wanted to go to ' + celestial_body)
+print('so he bought a spaceship')
+print('and to ' + celestial_body + ' the ' + character_species + ' astronaut went')
+print('the ' + character_species + ' flew past so many asteroids!')
+print('he counted at least ' + str(ast_amount) + ' asteroids on his way to ' + celestial_body)
+
+
+
+character_species = 'beetle'
+destination = ' coral reef'
+ast_amount = 47
+phrase = " diver"
+phrase2 = "submarine"
+phrase3 = " boats "
+action = " sailed"
+
+print('\"Animal Diver\"')
+print('\n')
+print('there once was a ' + character_species + ',')
+print('he was a famous'+ phrase)
+print('he had always wanted to go to a' + destination)
+print('so he bought a '+ phrase2)
+print('and to a' + destination + ' the ' + character_species + phrase + ' went')
+print('the ' + character_species + action + ' past so many' + phrase3)
+print('he counted at least ' + str(ast_amount) + phrase3 + 'on his way to the' + destination)

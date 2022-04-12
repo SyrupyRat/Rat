@@ -1,0 +1,42 @@
+adjective = input('enter an adjective')
+animal = input('enter an animal')
+place = input('enter a place')
+verb = input('enter a verb')
+noun = input('enter a noun)')
+verb_past_tense = input('enter a past tense verb')
+adverb = input('enter an adverb')
+exclamation = input('enter an exclamation')
+name = input('enter a name')
+celebrity = input('enter a second exclamation')
+goofy_word = input('enter a goofy word')
+number = input('enter a number')
+adjective_2 = input('enter a second adjective')
+noun_plural = input('enter a plural noun')
+adjective_3 = input('enter a third adjective')
+verb_past_tense_2 = input('enter a past tense verb')
+body_part = input('enter a body part')
+verb_2 = input('enter a 2nd verb')
+noun_plural_2 = input('enter a second plural noun')
+verb_ending_with_ing = input('enter a verb ending with -ing')
+noun_plural_3 = input('enter a third plural noun')
+adjective_4 = input('enter a fourth adjective')
+
+
+
+
+
+
+
+
+
+print('Last night I went to the most '+ adjective +' Halloween party!')
+print('The invitation was delivered by ' +animal)
+print('and told me to go to the deep dark ' + place)
+print(verb + ' all the way to the very top of the spooky '+noun)
+print('I ' +verb_past_tense + ' the doorbell '+adverb+ ' "'+exclamation+'"')
+print('My friend '+name+' answered the door dressed up as '+ celebrity+ ' and said '+goofy_word)
+print('There were '+number+' different costumes, including '+adjective_2+ ' ghouls and mummified '+noun_plural)
+print('The music was loud and '+adjective_3+' so I '+verb_past_tense_2+' until my '+body_part+' hurt.')
+print('There were also delicious treats to '+verb_2+' like candy corn and chocolate-covered '+noun_plural_2)
+print('but my favorite part of the part was the pumpkin '+verb_ending_with_ing+' and bobbing for '+noun_plural_3)
+print('I can\'t wait until next Halloween, it will be even more '+adjective_4+'!')

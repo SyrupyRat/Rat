@@ -1,0 +1,6 @@
+v = 1
+while v <=140:
+    print(v)
+    v = v + 3
+
+print("done with loop")

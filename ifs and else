@@ -1,0 +1,107 @@
+is_woman = True
+
+if is_woman:
+    print('you are a woman')
+    
+    
+    
+    is_woman = False
+
+if is_woman:
+    print('you are a woman')
+else:
+    print('you are a man')
+
+
+is_woman = True
+is_kind = True
+
+if is_woman or is_kind:
+    print('you are a woman or kind or both')
+else:
+    print('you are neither a woman nor kind')
+
+
+
+is_woman = False
+is_kind = True
+
+if is_woman or is_kind:
+    print('you are a woman or kind or both')
+else:
+    print('you are neither a woman nor kind')
+
+
+is_woman = False
+is_kind = False
+
+if is_woman or is_kind:
+    print('you are a woman or kind or both')
+else:
+    print('you are neither a woman nor kind')
+
+
+is_woman = False
+is_kind = False
+
+if is_woman and is_kind:
+    print('you are a woman and kind')
+else:
+    print('you are either not a woman or not kind or both')
+
+
+is_woman = True
+is_kind = True
+
+if is_woman and is_kind:
+    print('you are a kind woman')
+else:
+    print('you are either not a woman or not kind or both')
+
+
+is_woman = False
+is_kind = False
+
+if is_woman and is_kind:
+    print('you are a kind woman')
+elif is_woman and not(is_kind):
+    print('you are a mean woman')
+elif not(is_woman) and is_kind:
+    print('You are not a woman but are mean')
+else:
+    print('you are not a woman or kind')
+
+
+
+
+
+
+def max_num(num1, num2, num3):
+     if num1 >= num2 and num1 >= num3:
+         return num1
+     elif num2 >= num1 and num2 >= num3:
+         return num2
+     else:
+         return num3
+
+print(max_num(38, 340, 3012))
+
+
+
+
+def max_num(num1, num2, num3):
+     if num1 >= num2 and num1 >= num3:
+         return num1
+     elif num2 >= num1 and num2 >= num3:
+         return num2
+     else:
+         return num3
+
+print(max_num(33148, 577340, 3012))
+
+!= not equal
+== equal
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to

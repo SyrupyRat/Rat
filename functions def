@@ -1,0 +1,44 @@
+
+def say_hello():
+    print('Hello Operator')
+print('Welcome')
+say_hello()
+print('Good Bye')
+
+
+def say_hello(name):
+    print('Hello '+ name)
+print('Welcome')
+say_hello('Penny')
+say_hello('Chris')
+print('Good Bye') 
+
+def say_hello(name, characteristic):
+    print('Hello '+ name + ' you are ' + characteristic)
+print('Welcome')
+say_hello('Penny', 'Coy')
+say_hello('Chris', 'Overbearing')
+print('Good Bye')
+
+or
+
+def say_hello(name, characteristic):
+    print('Hello '+ name + ' you are ' + str(characteristic))
+print('Welcome')
+say_hello('Penny', 'Coy')
+say_hello('Chris', 'Overbearing')
+print('Good Bye')
+
+
+def cube(num):
+   return num*num*num
+
+print(cube(4))
+
+
+
+def cube(num):
+   return num*num*num
+
+result = cube(4)
+print(result)

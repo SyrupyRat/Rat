@@ -1,0 +1,53 @@
+DayConversions = {
+    "Sun": "Sunday",
+    "Mon": "Monday",
+    "Tue": "Tuesday",
+    "Wed": "Wednesday",
+    "Thu": "Thursday",
+    "Fri": "Friday",
+    "Sat": "Saturday",
+}
+
+print(DayConversions["Thu"])
+
+
+
+
+DayConversions = {
+    "Sun": "Sunday",
+    "Mon": "Monday",
+    "Tue": "Tuesday",
+    "Wed": "Wednesday",
+    "Thu": "Thursday",
+    "Fri": "Friday",
+    "Sat": "Saturday",
+}
+
+print(DayConversions.get("Sat"))
+
+
+DayConversions = {
+    "Sun": "Sunday",
+    "Mon": "Monday",
+    "Tue": "Tuesday",
+    "Wed": "Wednesday",
+    "Thu": "Thursday",
+    "Fri": "Friday",
+    "Sat": "Saturday",
+}
+
+print(DayConversions.get("Lin", "Not a valid key"))
+
+
+
+DayConversions = {
+    3: "Sunday",
+    6: "Monday",
+    9: "Tuesday",
+    12: "Wednesday",
+    15: "Thursday",
+    18: "Friday",
+    21: "Saturday",
+}
+
+print(DayConversions.get(15, "Not a valid key"))

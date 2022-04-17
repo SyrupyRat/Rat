@@ -1,0 +1,94 @@
+tasks = ['job hunting', 'coding', 'reading', 'working out', 'free time']
+tasks[1] = 'crying'
+print(tasks [1:3])
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941]
+flowers.extend(suspicious_numbers)
+print(flowers)
+print(suspicious_numbers)
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941]
+flowers.append('baby\'s breath')
+print(flowers)
+print(suspicious_numbers)
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941]
+flowers.insert(2, 'tulip')
+print(flowers)
+print(suspicious_numbers)
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941]
+flowers.remove('rose')
+print(flowers)
+print(suspicious_numbers)
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941]
+suspicious_numbers.clear()
+print(flowers)
+print(suspicious_numbers)
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941]
+suspicious_numbers.pop()
+flowers.pop()
+print(flowers)
+print(suspicious_numbers)
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941]
+suspicious_numbers.pop()
+flowers.pop()
+print(flowers)
+print(suspicious_numbers.index(26))
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941]
+suspicious_numbers.pop()
+flowers.pop()
+print(flowers)
+print(suspicious_numbers.index(26))
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 26, 31, 1042, 60941]
+suspicious_numbers.pop()
+flowers.sort()
+print(flowers)
+print(suspicious_numbers.count(26))
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941, 26, 159,]
+suspicious_numbers.sort()
+flowers.sort()
+print(flowers)
+print(suspicious_numbers)
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941, 26, 159,]
+suspicious_numbers.sort()
+flowers.reverse()
+print(flowers)
+print(suspicious_numbers)
+
+
+flowers = ['dandelion', 'orchid', 'peony', 'rose', 'lily', 'lotus']
+suspicious_numbers = [6, 17, 26, 31, 1042, 60941, 26, 159,]
+suspicious_numbers2 = suspicious_numbers.copy()
+flowers.reverse()
+print(flowers)
+print(suspicious_numbers2)
